@@ -95,7 +95,7 @@ public:
   {
     auto engine = CreateRknnInferCore(
         "/workspace/models/banet-2d-sceneflow-544-960.rknn",
-        {{"left_img", RknnInputTensorType::RK_UINT8}, {"right_img", RknnInputTensorType::RK_UINT8}},
+        {{"left", RknnInputTensorType::RK_UINT8}, {"right", RknnInputTensorType::RK_UINT8}},
         5, 3);
     auto preprocess_block = CreateCpuImageProcessingResizePad(
         ImageProcessingPadMode::TOP_RIGHT, ImageProcessingPadValue::EDGE, false, false, {}, {});

@@ -25,10 +25,8 @@
 
 |  orangepi-5-plus-16GB   |   qps   |  cpu   |
 |:---------:|:---------:|:----------------:|
-|  banet(fp16) - origin   |   3.7   |  65%   |
-|  banet(fp16) - **opt**  |   **9**   |  **35%**   |
-|  banet(fp16) - origin - ***async***  |   14   |  210%   |
-|  banet(fp16) - **opt** - ***async***  |   **29**   |  **90%**   |
+|  banet(fp16)   |   2.1   |  29%   |
+|  banet(fp16) - ***async***  |   6.3   |  63%   |
 
 ## Usage
 
